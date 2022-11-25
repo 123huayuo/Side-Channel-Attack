@@ -6,6 +6,8 @@ GRU模型学习：
 ![GRU](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/01.png)   
 GRU有两个门,一个重置门r和一个更新门z，直观的，重置门决定了如何把新的输入与之前的记忆相结合，更新门决定多少先前的记忆起作用。  
 ![GRU](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/02.png)   
+五大公式：  
+![GRU](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/06.jpg) 
 
 
 ## 2022-11-24
