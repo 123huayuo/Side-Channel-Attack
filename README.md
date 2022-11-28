@@ -1,14 +1,14 @@
 # README.md
 
 ## 2022-11-25
-GRU模型学习：  
-有两个输入，两个输出   
+GRU模型学习：   
 ![GRU](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/01.png)   
-GRU有两个门,一个重置门r和一个更新门z，直观的，重置门决定了如何把新的输入与之前的记忆相结合，更新门决定多少先前的记忆起作用。  
+双入双出：当前输入xt；当前节点输出yt；上一节点传递的隐状态ht-1；传递给下一节点的隐状态ht   
 ![GRU](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/02.png)   
-五大公式：  
-![GRU](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/06.jpg) 
-
+GRU有两个门：重置门r(新输入结合先前记忆)/更新门z(先前记忆起的作用)。  
+过程:  
+(1)利用重置门对输入ht-1进行重置后，与输入xt拼接，再通过一个tanh激活函数得到h’即记忆了当前时刻的状态；  
+(2)使用更新门z对输入ht-1进行选择性“遗忘”，再对h’进行选择性“记忆”，综合后得到输出ht。即忘记传递下来的 ht−1 中的某些维度信息，并加入当前节点输入的某些维度信息。  
 
 ## 2022-11-24
 阅读文献《RetroIoT: Retrofitting Internet of Things Deployments by Hiding Data in Battery Readings》  
