@@ -15,3 +15,7 @@ SSH连接
 算法调试  
 ![06](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/06.png)   
 ### 远程用vscode连接调试代码--唐
+连接成功，显示可以用包  
+![07](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/07.png)   
+解释器，暂定使用tensoflow下的python3.7
+![08](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/08.png)   
