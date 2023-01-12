@@ -7,10 +7,11 @@ ModelArts-控制台 Notebook
 ### JupyterLab
 打开控制台Notebook  
 ![03](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/03.png) 
-### 远程用vscode连接调试代码
+### 远程用vscode连接调试代码--庄
 SSH连接  
 ![04](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/04.png)  
 连接成功  
 ![05](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/05.png)   
 算法调试  
 ![06](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/06.png)   
+### 远程用vscode连接调试代码--唐
