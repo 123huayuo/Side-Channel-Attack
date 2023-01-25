@@ -1,21 +1,14 @@
-### 算力平台
-ModelArts-控制台 Notebook  
-![01](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/01.png)
-### OBS桶
-放入数据集与代码  
-![02](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/02.png)  
-### JupyterLab
-打开控制台Notebook  
-![03](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/03.png) 
-### 远程用vscode连接调试代码--庄
-SSH连接  
-![04](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/04.png)  
-连接成功  
-![05](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/05.png)   
-算法调试  
-![06](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/06.png)   
-### 远程用pycharm连接调试代码--唐
-连接成功，显示可以用包  
-![07](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/07.png)   
-解释器，暂定使用tensoflow下的python3.7
-![08](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/08.png)   
+# 10种情况下运行后的应用识别实验<br>
+**数据处理方式**<br>
+*1 将信号频率由44100Hz降低到50Hz。*<br>
+*2 将降频后的信号进行希尔伯特变换，获取信号的包络线。*<br>
+*3 获取信号的包络线后进行阈值判断，判断应用可能启动的时间点。*<br>
+*4 获取应用可能启动的时间点后，将该时间点后的200个点以图片的方式进行保存。*<br>
+
+**1.手机型号为华为5(庄)的Resnet18网络训练结果**<br>
+*1.1 10情况10分类 手机电量100%*<br>
+ 训练集、验证集、测试集划分情况：<br>
+ (1)测试集占总样本的30%,训练集数量为最小样本数\*0.7\*0.8,验证集数量为最小样本数\*0.7\*0.2<br>
+ 训练过程：<br>
+     准确度：97.14% 损失：0.1252
+     ![训练过程](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/100%25battery_10(10).png)
