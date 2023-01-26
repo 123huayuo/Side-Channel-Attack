@@ -21,6 +21,13 @@
      准确度：97.60% 损失：0.0902
      ![训练过程](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/100%25battery_y(10).png)
      
+*2.2 10分类 手机电量20%-50%*<br>
+ 训练集、验证集、测试集划分情况：<br>
+ (1)测试集占总样本的30%,训练集数量为最小样本数\*0.7\*0.8,验证集数量为最小样本数\*0.7\*0.2<br>
+ 训练过程：<br>
+     准确度：77.77% 损失：0.7700
+     ![训练过程](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/20%25battery_y(10).png)
+     
 **3.手机型号为小米10s(唐)的Resnet18网络训练结果**<br>
 *3.1 10分类 手机电量100%*<br>
  训练集、验证集、测试集划分情况：<br>
