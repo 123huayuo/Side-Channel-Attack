@@ -32,8 +32,8 @@
  训练集、验证集、测试集划分情况：<br>
  (1)测试集占总样本的30%,训练集数量为最小样本数\*0.7\*0.8,验证集数量为最小样本数\*0.7\*0.2<br>
  训练过程：<br>
-     准确度：25.74% 损失：8.7397
-     ![训练过程](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/20%25battery_z(10).png)
+     准确度：79.38% 损失：0.6749
+     ![训练过程](https://github.com/123huayuo/Side-Channel-Attack/blob/main/image/cdb/20%25battery_z2(10).png)
 
      
 **3.手机型号为小米10s(唐)的Resnet18网络训练结果**<br>
